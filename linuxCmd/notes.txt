@@ -1,0 +1,7 @@
+=> vim: it is used to open file 
+eg: vim xyz.txt
+
+=> to insert press "i"
+
+=> to save press "esc" and enter ":wq"
+

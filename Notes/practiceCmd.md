@@ -1,0 +1,318 @@
+# linux cmd
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ pwd
+/d/Web Development/Operating System/linuxCmd
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls -a
+./  ../
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls -lh
+total 0
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ mkdir s1
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+s1/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ mkdir s2
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+s1/  s2/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cd s1
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s1
+$ pwd
+/d/Web Development/Operating System/linuxCmd/s1
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s1
+$ cd ..
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ pwd
+/d/Web Development/Operating System/linuxCmd
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cd ..
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System
+$ pwd
+/d/Web Development/Operating System
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System
+$ cd linuxCmd/s1
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s1
+$ pwd
+/d/Web Development/Operating System/linuxCmd/s1
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s1
+$ mkdir s3
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s1
+$ ls
+s3/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s1
+$ cd ..
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+s1/  s2/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ mkdir s3
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+s1/  s2/  s3/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ mkdir newFolder
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+newFolder/  s1/  s2/  s3/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ rmdir s3
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+newFolder/  s1/  s2/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cd s2
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ pwd
+/d/Web Development/Operating System/linuxCmd/s2
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ ls
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ touch new.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ ls
+new.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ rm new.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ ls
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ ls
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ cd..
+bash: cd..: command not found
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ cd ..
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+newFolder/  s1/  s2/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cd newFolder
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/newFolder
+$ touch index.html
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/newFolder
+$ ls
+index.html
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/newFolder
+$ ls
+index.html
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/newFolder
+$ cd ..
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+rohit.txt  s1/  s2/
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ touch y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ vim y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ vim y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ touch notes.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ vim notes.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ vim notes.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ vim notes.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ //cat used to print file
+
+
+ls
+
+bash: //cat: No such file or directory
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cat notes.txt
+=> vim: it is used to open file
+eg: vim xyz.txt
+
+=> to insert press "i"
+
+=> to save press "esc" and enter ":wq"
+
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ open s1
+bash: open: command not found
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ open y.txt
+bash: open: command not found
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ man ls
+bash: man: command not found
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cp rohit.txt s2/yy.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cd s2
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ ls
+yy.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ vim yy.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ ls
+yy.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ cd ..
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ mkdir cm
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+cm/  notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ mv cm /s2
+mv: cannot create directory '/s2': Permission denied
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ mkdir cm
+mkdir: cannot create directory ‘cm’: File exists
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+cm/  notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$  mv cm s2
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ cd s2
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ ls
+cm/  yy.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd/s2
+$ cd ..
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ ls
+notes.txt  rohit.txt  s1/  s2/  y.txt
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$ echo "hi"
+hi
+
+cmroh@Rohit MINGW64 /d/Web Development/Operating System/linuxCmd
+$
